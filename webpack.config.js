@@ -31,7 +31,10 @@ module.exports = {
             filename: './index.html'
         })
     ],
-
+    devServer: {
+        port:8083,
+        historyApiFallback: true
+    },
     module: {
         rules: [
             {
